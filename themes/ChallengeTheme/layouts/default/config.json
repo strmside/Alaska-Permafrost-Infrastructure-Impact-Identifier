@@ -1,0 +1,74 @@
+{
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/ChallengeTheme/panels/SimpleBorderPanel/Panel"
+    },
+    "widgets": [{
+      "uri": "widgets/MAGT/Widget",
+      "position": {
+        "left":48 ,
+        "top": 68
+      }
+    },{
+      "uri":"widgets/TwitterButton/Widget",
+      "position":{
+        "left":154,
+        "top":15
+      }
+    },{
+      "label": "Layer List",
+      "uri": "widgets/LayerList/Widget",
+      "position": {
+        "left": 55,
+        "top": 15,
+        "width": 200,
+        "height": 200
+      }
+      },{
+      "label": "Basemap Gallery",
+      "uri": "widgets/BasemapGallery/Widget",
+      "position": {
+        "left": 105,
+        "top": 15,
+        "width": 200,
+        "height": 200
+      }
+      }]
+  },
+"widgetPool": {
+    "panel": {
+      "uri": "themes/TabTheme/panels/TabPanel/Panel",
+      "positionRelativeTo": "browser",
+      "position": {
+        "top": 4,
+        "left": 0,
+        "bottom": 22
+      }
+    },
+
+    "widgets": [{
+      "label": "Bookmark",
+      "uri": "widgets/Bookmark/Widget"
+    }, {
+      "label": "Legend",
+      "uri": "widgets/Legend/Widget"
+    }, {
+      "label": "Geoprocessing",
+      "uri": "widgets/Geoprocessing/Widget"
+    }, {
+      "label": "Edit",
+      "uri": "widgets/Edit/Widget"
+    }, {
+      "label": "LayerList",
+      "uri": "widgets/LayerList/Widget"
+    }]
+  },
+  "map": {
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  }
+}

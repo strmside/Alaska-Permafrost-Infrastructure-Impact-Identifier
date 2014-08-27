@@ -1,0 +1,95 @@
+{
+  "widgets/MAGT/Widget": {
+    "name": "MAGT",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false,
+      "hasLocale": false
+    }
+  },
+  "widgets/TwitterButton/Widget": {
+    "name": "TwitterButton",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false,
+      "hasLocale": false
+    }
+  },
+  "widgets/LayerList/Widget": {
+    "name": "LayerList",
+    "label": "Layer List",
+    "2D": true,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "widgets/BasemapGallery/Widget": {
+    "name": "BasemapGallery",
+    "label": "Basemap Gallery",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "hasLocale": false
+    }
+  },
+  "widgets/Bookmark/Widget": {
+    "name": "Bookmark",
+    "2D": true,
+    "3D": true,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "the bookmark widget which support 2D and 3D map",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "widgets/Legend/Widget": {
+    "name": "Legend",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "hasLocale": false
+    }
+  },
+  "widgets/Geoprocessing/Widget": {
+    "name": "Geoprocessing",
+    "2D": true,
+    "3D": true,
+    "platform": "HTML",
+    "version": "0.0.1",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "widgets/Edit/Widget": {
+    "name": "Edit",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  }
+}

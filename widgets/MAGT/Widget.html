@@ -1,0 +1,50 @@
+<div>
+<div class='permafrost'>
+	<div>
+	<input type='checkbox' checked="true" data-dojo-attach-event='change:_layersCheck' />
+	2010</div>
+	<div class="slider">
+	 	<input type="range" data-dojo-attach-point='slider' value='0'>
+	</div>
+	<div>2099</div>
+	</div>
+	<div id='getLocationDiv'>
+		<div title='My Location' class='widget-button' data-dojo-attach-event='click:_getLocation'><img src='widgets/MAGT/images/locate.png' width='30px' height='30px'/></div>
+		<div title='Map Select' class='widget-button' data-dojo-attach-event='click:_enableClick'><img src='widgets/MAGT/images/point.png' width='30px' height='30px'/></div>
+	</div>
+	<div id='legendDiv'>
+		<img src='widgets/MAGT/images/magt_Legend.png'/>
+	</div>
+	<div data-dojo-attach-point='resultsDiv' id='resultsDiv' class='hidden' >
+		<div id='forecastDiv'>
+			<h4>Permafrost Forecast</h4>
+			<h1 data-dojo-attach-point='riskText'>Result</h1>
+
+		</div>
+		<div data-dojo-attach-point='detailsText' id='detailsDiv'>Details</div>
+		<br/>
+		<div id='statsDiv'>
+			<h2>Climate Change Resources</h2>
+		<h4>
+			<a href='http://www.climatechange.alaska.gov/chh.htm' target="_blank">Climate Change in Alaska</a>
+			</h4>
+			<h4>
+			<a href='http://permafrost.gi.alaska.edu/' target="_blank">UAF Permafrost Lab</a>
+			</h4>
+			<h4>
+			<a href='https://www.fhwa.dot.gov/publications/publicroads/10mar/05.cfm' target="_blank">Climate Change and Transportation</a>
+			</h4>
+			<h4>
+			<a href='http://www.epa.gov/climatechange/impacts-adaptation/alaska.html' target="_blank">Climate Change Impacts in Alaska</a>
+			</h4>
+			<h4>
+			<a href='http://nsidc.org/' target="_blank">Snow and Ice Data Center</a>
+			</h4>
+
+			
+		</div>
+		<a id='close' data-dojo-attach-event='click:_hideMe'>Close</a>
+
+	</div>
+	<div data-dojo-attach-point='tooltip' id='tooltip' class='hidden'>Click to see permafrost forecast</div>
+</div>

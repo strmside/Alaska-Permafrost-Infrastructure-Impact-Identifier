@@ -1,0 +1,12 @@
+{
+	"slider":{
+		"layer1":{
+			"name":"MAGT_2010",
+			"url":"http://tiles.arcgis.com/tiles/JtAbKsJUQ7gSxKut/arcgis/rest/services/magt_2010-19/MapServer"
+		},
+		"layer2":{
+			"name":"MAGT_2090",
+			"url":"http://tiles.arcgis.com/tiles/JtAbKsJUQ7gSxKut/arcgis/rest/services/magt_2090-99/MapServer"
+		}
+	}
+}

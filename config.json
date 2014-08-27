@@ -1,0 +1,149 @@
+{
+  "theme": {
+    "name": "ChallengeTheme",
+    "styles": [
+      "default",
+      "black"
+    ]
+  },
+  "portalUrl": "http://RDI.maps.arcgis.com/",
+  "appId": "Hm3XBXm4QiPasL0z",
+  "title": "Alaska Permafrost Risk",
+  "subtitle": "ESRI App Challenge",
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/ChallengeTheme/panels/SimpleBorderPanel/Panel",
+      "positionRelativeTo": "map"
+    },
+    "widgets": [
+      {
+        "uri": "widgets/MAGT/Widget",
+        "position": {
+          "left": 48,
+          "top": 68
+        },
+        "id": "widgets/MAGT/Widget_1",
+        "positionRelativeTo": "map",
+        "name": "MAGT",
+        "label": "MAGT"
+      },
+      {
+        "uri": "widgets/TwitterButton/Widget",
+        "position": {
+          "left": 154,
+          "top": 15
+        },
+        "id": "widgets/TwitterButton/Widget_2",
+        "positionRelativeTo": "map",
+        "name": "TwitterButton",
+        "label": "TwitterButton"
+      },
+      {
+        "label": "Layer List",
+        "uri": "widgets/LayerList/Widget",
+        "position": {
+          "left": 55,
+          "top": 15,
+          "width": 200,
+          "height": 200
+        },
+        "id": "widgets/LayerList/Widget_3",
+        "positionRelativeTo": "map",
+        "name": "LayerList"
+      },
+      {
+        "label": "Basemap Gallery",
+        "uri": "widgets/BasemapGallery/Widget",
+        "position": {
+          "left": 105,
+          "top": 15,
+          "width": 200,
+          "height": 200
+        },
+        "id": "widgets/BasemapGallery/Widget_4",
+        "positionRelativeTo": "map",
+        "name": "BasemapGallery"
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "25b36fda37544149a0079166d502cbef",
+    "mapOptions": {
+      "extent": {
+        "xmin": -22670211.51706101,
+        "ymin": 6463419.460897585,
+        "xmax": -10929483.97246106,
+        "ymax": 11942425.648377562,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://RDI.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/TabTheme/panels/TabPanel/Panel",
+      "positionRelativeTo": "browser",
+      "position": {
+        "top": 4,
+        "left": 0,
+        "bottom": 22
+      }
+    },
+    "widgets": [
+      {
+        "label": "Bookmark",
+        "uri": "widgets/Bookmark/Widget",
+        "id": "widgets/Bookmark/Widget_5",
+        "name": "Bookmark",
+        "index": 0
+      },
+      {
+        "label": "Legend",
+        "uri": "widgets/Legend/Widget",
+        "id": "widgets/Legend/Widget_6",
+        "name": "Legend",
+        "index": 1
+      },
+      {
+        "label": "Geoprocessing",
+        "uri": "widgets/Geoprocessing/Widget",
+        "id": "widgets/Geoprocessing/Widget_7",
+        "name": "Geoprocessing",
+        "index": 2
+      },
+      {
+        "label": "Edit",
+        "uri": "widgets/Edit/Widget",
+        "id": "widgets/Edit/Widget_8",
+        "name": "Edit",
+        "index": 3
+      },
+      {
+        "label": "LayerList",
+        "uri": "widgets/LayerList/Widget",
+        "id": "widgets/LayerList/Widget_9",
+        "name": "LayerList",
+        "index": 4
+      }
+    ]
+  },
+  "httpProxy": {
+    "useProxy": true,
+    "url": "/proxy.js"
+  },
+  "widgetManifestsMerged": true
+}

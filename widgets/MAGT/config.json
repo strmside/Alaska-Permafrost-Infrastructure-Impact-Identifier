@@ -1,0 +1,12 @@
+{
+	"slider":{
+		"layer1":{
+			"name":"MAGT_2010",
+			"url":"http://www.akpermafrost.com:6080/arcgis/rest/services/AppChallenge/MAGT_2010_2019/MapServer"
+		},
+		"layer2":{
+			"name":"MAGT_2090",
+			"url":"http://www.akpermafrost.com:6080/arcgis/rest/services/AppChallenge/MAGT_2090_2099/MapServer"
+		}
+	}
+}
